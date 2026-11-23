@@ -3,4 +3,21 @@ data/processed/
 data/splits/
 results/
 __pycache__/
+.venv/# Generated datasets
+data/raw/
+data/processed/
+data/graphs/
+data/tgt/
+data/splits/
+
+# Trained models and results
+results/
+*.pt
+*.pth
+*.ckpt
+
+# Python
+venv/
 .venv/
+__pycache__/
+*.pyc
