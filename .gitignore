@@ -1,0 +1,62 @@
+# ==============================
+# Python virtual environments
+# ==============================
+venv/
+.venv/
+env/
+ENV/
+
+# ==============================
+# Python cache and compiled files
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==============================
+# Datasets and generated graph data
+# ==============================
+data/raw/
+data/processed/
+data/processed_full/
+data/processed_full_split/
+data/processed_full_split_v2/
+data/
+
+# ==============================
+# Experiment results and figures
+# ==============================
+results/
+runs/
+logs/
+*.log
+
+# ==============================
+# Model checkpoints and weights
+# ==============================
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# ==============================
+# Temporary and generated files
+# ==============================
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Environment variables and secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# IDE and editor files
+# ==============================
+.vscode/
+.idea/
